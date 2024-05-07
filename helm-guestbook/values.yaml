@@ -10,8 +10,8 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: Monk
-  port: 100
+  type: ClusterIP
+  port: 80
 
 ingress:
   enabled: true
