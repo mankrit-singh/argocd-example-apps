@@ -10,7 +10,7 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: Monke
+  type: Monk
   port: 100
 
 ingress:
